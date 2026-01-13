@@ -1,6 +1,5 @@
 ############################################
 # Cyclistic Bike-Share Analysis
-# Final Portfolio Script
 # Author: Gilberto Gutierrez
 ############################################
 
@@ -178,6 +177,7 @@ write_csv(rides_by_bike, "rides_by_bike.csv")
 # ================================
 summary(bike_data$ride_length)
 table(bike_data$member_casual)
+
 
 
 
